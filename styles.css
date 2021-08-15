@@ -1,0 +1,64 @@
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+}
+
+body{
+    background-color: black;
+}
+
+p, strong{
+    font-family: 'Marvel', sans-serif;
+    margin: 0;
+    color: black;
+}
+
+.special1{
+    padding: 3px;
+}
+
+.box{
+    background-color: white;
+    padding: 10px;
+    max-width: min-content;
+}
+
+.post_header{
+    display: flex;
+    justify-content: space-between;
+    margin: 6px;
+    align-items: center;
+}
+
+.box2, .box3{
+    display: flex;
+    align-items: center;
+}
+
+.post_icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 6px;
+}
+
+.post_likes, .post_caption{
+    margin: 6px;
+}
+
+i{
+    padding: 3px;
+    align-items: baseline;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+.post_logo{
+    align-self: center;
+}
+
+.special2{
+    font-size: 2.5rem;
+}
+
